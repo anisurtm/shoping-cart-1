@@ -1,6 +1,6 @@
 
 product.addEventListener('click',function(e){
-    if(e.target.className == 'bt1' && e.target.parentNode.querySelector('.bt2').innerText>= 1){
+    if(e.target.className == 'bt1' && e.target.parentNode.querySelector('.bt2').innerText>=1){
         e.target.parentNode.querySelector('.bt2').innerText--;
         console.log(e.target.parentNode.parentNode);
 
